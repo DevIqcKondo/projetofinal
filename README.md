@@ -20,7 +20,7 @@ Esse projeto é destinado a matéria de Programação de Computadores.
 
 ---
 ## Agradecimentos ##
-Agradeço aos meus professores - Diego Neri e Ermogenes Palacio - pelas aulas ministradas e pelo conhecimento que foi transmitido.
+Agradeço aos meus professores - Diego Neri e Ermogenes Palacio - pelas aulas ministradas e pelo conhecimento que foi transmitido!
 > ![Foto do computador](eu.jpg)
 
 * [Prof.Ermogenes](https://github.com/ermogenes)
