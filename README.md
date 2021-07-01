@@ -14,9 +14,9 @@ Esse projeto é destinado a matéria de Programação de Computadores.
  ![Tela inicial do programa.](inicio.png)
 
 
-## _Dowload_
+## _Download_
 ♦ Baixe o arquivo. Descompacte na pasta desejada.🤓
-* [📥Dowload do arquivo.zip](dist/ProjetoCalculadora.zip)
+* [📥Download do arquivo.zip](dist/ProjetoCalculadora.zip)
 
 ---
 ## Agradecimentos ##
