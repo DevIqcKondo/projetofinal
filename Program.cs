@@ -389,8 +389,8 @@ namespace projetofinal
         }
         static void imc(){
 
-            double m=0;
-            double a=0;
+            double metros=0;
+            double alt=0;
             double imc=0;
 
             Console.WriteLine("+----------------+");
@@ -400,11 +400,11 @@ namespace projetofinal
 
             
             Console.Write("Digite seu peso em kg: ");
-            m=Convert.ToDouble(Console.ReadLine());
+            metros=Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Digite sua altura em metros: ");
-            a=Convert.ToDouble(Console.ReadLine());
-            imc= Math.Round(m/(a*a),2);
+            alt=Convert.ToDouble(Console.ReadLine());
+            imc= Math.Round(metros/(alt*alt),2);
 
 
 
