@@ -80,9 +80,8 @@ namespace projetofinal
                             break;
                     }
 
-                    Console.BackgroundColor = ConsoleColor.Red;
-                    Console.ForegroundColor = ConsoleColor.Black;
-                    Console.WriteLine("Deseja retornar ao menu principal? S/N?");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write("Deseja retornar ao menu principal? S/N? ");
                     Console.ResetColor();
                     sair = Console.ReadLine().ToUpper();
 
@@ -132,6 +131,9 @@ namespace projetofinal
             int numero1=0;
             int numero2=0;
             int resultado=0;
+            Console.WriteLine("+--------+");
+            Console.WriteLine("| ADIÇÃO |");
+            Console.WriteLine("+--------+");
 
             Console.Write("Digite o primeiro número: ");
             numero1 = Convert.ToInt32(Console.ReadLine());
@@ -152,6 +154,10 @@ namespace projetofinal
             double numero2=0;
             double resultado=0;
 
+            Console.WriteLine("+-----------+");
+            Console.WriteLine("| SUBTRAÇÃO |");
+            Console.WriteLine("+-----------+");
+
             Console.Write("Digite o primeiro número: ");
             numero1 = Convert.ToDouble(Console.ReadLine());
 
@@ -170,6 +176,10 @@ namespace projetofinal
             decimal numero1=0;
             decimal numero2=0;
             decimal resultado=0;
+
+            Console.WriteLine("+---------+");
+            Console.WriteLine("| DIVISÃO |");
+            Console.WriteLine("+---------+");
 
             Console.Write("Digite o primiro número: ");
             numero1 = Convert.ToDecimal(Console.ReadLine());
@@ -195,6 +205,10 @@ namespace projetofinal
             double numero2=0;
             double resultado=0;
 
+            Console.WriteLine("+---------------+");
+            Console.WriteLine("| MULTIPLICAÇÃO |");
+            Console.WriteLine("+---------------+");
+
             Console.Write("Digite o primeiro número: ");
             numero1 = Convert.ToDouble(Console.ReadLine());
 
@@ -213,6 +227,10 @@ namespace projetofinal
             double numero1=0;
             double resultado=0;
 
+            Console.WriteLine("+---------------+");
+            Console.WriteLine("| RAIZ QUADRADA |");
+            Console.WriteLine("+---------------+");
+
             Console.Write("Digite um número: ");
             numero1 = Convert.ToDouble(Console.ReadLine());
 
@@ -225,6 +243,10 @@ namespace projetofinal
 
         static void potenciacao()
         {
+            Console.WriteLine("+-------------+");
+            Console.WriteLine("| POTENCIAÇÃO |");
+            Console.WriteLine("+-------------+");
+
             double numero1=0;
             double numero2=0;
             double resultado=0;
@@ -244,8 +266,14 @@ namespace projetofinal
 
         static void Converter()
         {
-            double milhas, resultado;
+
+            double milhas=0;
+            double resultado=0;
             double km = 1.609;
+
+            Console.WriteLine("+--------------------+");
+            Console.WriteLine("| CONVERTENDO MILHAS |");
+            Console.WriteLine("+--------------------+");
 
             Console.Write("Digite a distância em Milhas: ");
             milhas = double.Parse(Console.ReadLine());
@@ -259,12 +287,18 @@ namespace projetofinal
 
         static void bhaskara()
         {
+            
             double a=0;
             double b=0;
             double c=0;
             double d=0;
             double x1=0;
             double x2=0;
+
+            Console.WriteLine("+----------+");
+            Console.WriteLine("| BHASKARA |");
+            Console.WriteLine("+----------+");
+
             Console.WriteLine("Informe os valores de A,B e C.");
             Console.Write("(A): ");
             Console.ForegroundColor=ConsoleColor.Blue;
@@ -317,6 +351,10 @@ namespace projetofinal
             int c3=0;
             int x=0;
 
+            Console.WriteLine("+-----------+");
+            Console.WriteLine("| FIBONACCI |");
+            Console.WriteLine("+-----------+");
+
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine("Digite a quantidade de números para serem exibidos da sequência de Fibonacci.");
@@ -355,9 +393,9 @@ namespace projetofinal
             double a=0;
             double imc=0;
 
-            Console.WriteLine("---------------");
-            Console.WriteLine("Calculando IMC!");
-            Console.WriteLine("---------------");
+            Console.WriteLine("+----------------+");
+            Console.WriteLine("| Calculando IMC |");
+            Console.WriteLine("+----------------+");
             Console.WriteLine();
 
             
@@ -423,14 +461,13 @@ namespace projetofinal
         }
 
         static void creditos(){
-            Console.BackgroundColor=ConsoleColor.DarkCyan;
-            Console.ForegroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.DarkCyan;
             Console.WriteLine("Projeto destinado a matéria de PC na EtecAB");
             Console.WriteLine("Desenvolvido por: Isadora Kondo");
             Console.WriteLine("Github: https://github.com/DevIqcKondo");
             Console.WriteLine();
-            Console.BackgroundColor=ConsoleColor.DarkCyan;
-            Console.ForegroundColor=ConsoleColor.Black;
+           
+            Console.ForegroundColor=ConsoleColor.DarkMagenta;
             Console.WriteLine("Algumas pessoas acham que foco ");
             Console.WriteLine("significa dizer sim para a coisa");
             Console.WriteLine("em que você irá se focar.");
@@ -455,7 +492,7 @@ namespace projetofinal
             Console.WriteLine(" | ☼ 2- Subtração     |  ☼ 8- Bhaskara        |");
             Console.WriteLine(" | ☼ 3- Divisão       |  ☼ 9- Fibonacci       |");
             Console.WriteLine(" | ☼ 4- Multiplicação |  ☼ 10- Graus          |");
-            Console.WriteLine(" | ☼ 5- Raiz          |  ☼ 11- IMC            |");
+            Console.WriteLine(" | ☼ 5- Raiz Quadrada |  ☼ 11- IMC            |");
             Console.WriteLine(" | ☼ 6- Potenciação   |  ☼ 12- Créditos       |");
             Console.WriteLine(" +--------------------------------------------+");
             Console.WriteLine($"Programa iniciado em: {hora}");
